@@ -11,7 +11,7 @@ import SwiftUI
 struct iTARSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TARSContainerView()
         }
     }
 }
