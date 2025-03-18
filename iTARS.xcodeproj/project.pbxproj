@@ -11,6 +11,7 @@
 		8FB0029C2D88B8C600BDB142 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB0029B2D88B8C600BDB142 /* ARKit.framework */; };
 		8FB0029E2D88B8CD00BDB142 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB0029D2D88B8CD00BDB142 /* SceneKit.framework */; };
 		8FB002A02D88B8D400BDB142 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB0029F2D88B8D400BDB142 /* AVFoundation.framework */; };
+		8FB002B72D8A263200BDB142 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8FB002B62D8A263200BDB142 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		8FB0029B2D88B8C600BDB142 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		8FB0029D2D88B8CD00BDB142 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		8FB0029F2D88B8D400BDB142 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8FB002B62D8A263200BDB142 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -46,6 +48,7 @@
 		8FB0027D2D88B7A900BDB142 = {
 			isa = PBXGroup;
 			children = (
+				8FB002B62D8A263200BDB142 /* README.md */,
 				8FB002882D88B7A900BDB142 /* iTARS */,
 				8FB0029A2D88B8C600BDB142 /* Frameworks */,
 				8FB002872D88B7A900BDB142 /* Products */,
@@ -138,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB002B72D8A263200BDB142 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
